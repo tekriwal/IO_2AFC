@@ -84,7 +84,8 @@ RIGHTs = [4,8,12,16];
 mat1(:,LEFTs) = 301;
 mat1(:,RIGHTs) = 302;
 %% suppress the below to see in easier to view format
-input_matrix_rndm = reshape(mat1,144,1);
+mat2 = mat1(:,1:9);
+input_matrix_rndm = reshape(mat2,81,1);
 
 
 filename = 'input_matrix_rndm.mat';
